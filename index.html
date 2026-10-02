@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>✧ INTERNET ANGEL FEST ✧</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" type="image/png" href="../Images/P-chan.png">
+</head>
+
+<body>
+
+    <!-- menu de navegación -->
+
+    <nav class="navbar">
+
+        <div class="logo-nav">
+            <a href="index.html">✦ INTERNET ANGEL FEST ✦</a>
+        </div>
+
+        <button class="menu-btn" onclick="abrirMenu()" type="button" aria-label="Abrir menú">
+            :3
+        </button>
+
+        <div class="menu" id="menu">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="ubicación.html">Ubicación</a>
+            <a href="registro.html">Registro</a>
+        </div>
+
+    </nav>
+
+
+    <!-- inicio -->
+
+    <section class="inicio" id="inicio">
+
+        <div class="banner-principal">
+
+            <div class="imagen-principal">
+                <img src="../Images/loguito.png" alt="Internet Angel Fest">
+            </div>
+
+            <p class="texto-glitch">
+                ✦ BIENVENIDOS A INTERNET ANGEL FEST ✦
+            </p>
+
+            <!-- contador -->
+
+            <div id="countdown"></div>
+
+
+            <!-- reproductor -->
+
+            <div class="reproductor">
+                <img src="../Images/reproductor.svg" alt="Reproductor" class="reproductor-fondo">
+
+                <!-- musiquita -->
+                <button id="btn-play" class="btn-repro" aria-label="Reproducir">
+                    <img src="../Images/click.svg" alt="">
+                </button>
+                <button id="btn-pause" class="btn-repro" aria-label="Pausar">
+                    <img src="../Images/click1.svg" alt="">
+                </button>
+
+                <audio id="audio" src="../Images/uwu.mp4"></audio>
+            </div>
+
+        </div>
+
+
+        <!-- video -->
+
+        <div class="video-container">
+
+            <video class="video" autoplay muted loop>
+                <source src="../Images/Comp 1 - copia.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+    </section>
+
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <div class="about-title">
+
+            <p>
+                ✦ about us ✦
+            </p>
+
+            <h1 class="glitch" data-text="¿qué es internet angel fest?">
+                ¿Qué es internet angel fest?
+            </h1>
+
+            <p class="about-subtitle">
+                ♡ Un pequeño rincón de internet hecho para ángeles ♡
+            </p>
+
+        </div>
+
+
+        <!-- presentación -->
+
+        <div class="about-window">
+
+            <div class="window-bar">
+
+                <span>
+                    Internet angel fest.exe
+                </span>
+
+                <span>
+                    ×
+                </span>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <div class="about-heart">
+                    ♡
+                </div>
+
+                <h2>
+                    ¿Qué es internet angel fest?
+                </h2>
+
+                <p>
+                    internet angel fest es un festival temático
+                    inspirado en <strong>needy girl overdose</strong>
+                    y en la estética de internet, los videojuegos,
+                    la cultura digital y los espacios virtuales.
+                </p>
+
+                <p>
+                    creamos este evento como un lugar para que
+                    personas con intereses similares puedan
+                    encontrarse, compartir sus gustos y disfrutar
+                    de una experiencia llena de música, actividades
+                    y creatividad.
+                </p>
+
+                <p>
+                    es un espacio pensado para nuestra querida
+                    ángel y para todas las personas que quieran
+                    formar parte de esta pequeña comunidad.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- qué encontrar -->
+
+        <section class="about-section">
+
+            <div class="section-title">
+
+                <span>✦</span>
+
+                <h2>
+                    ¿Qué vas a encontrar?
+                </h2>
+
+                <span>✦</span>
+
+            </div>
+
+
+            <div class="about-cards">
+
+                <div class="about-card">
+
+                    <span class="card-icon">
+                        ♡
+                    </span>
+
+                    <h3>
+                        música
+                    </h3>
+
+                    <p>
+                        música, canciones y momentos para
+                        disfrutar durante todo el festival.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <span class="card-icon">
+                        ☆
+                    </span>
+
+                    <h3>
+                        Actividades
+                    </h3>
+
+                    <p>
+                        juegos, dinámicas y actividades
+                        relacionadas con el universo digital.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <span class="card-icon">
+                        ♡
+                    </span>
+
+                    <h3>
+                        Comunidad
+                    </h3>
+
+                    <p>
+                        personas con intereses parecidos
+                        para conocer y compartir.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- experiencia -->
+
+        <section class="experience-section">
+
+            <div class="experience-window">
+
+                <div class="window-bar">
+
+                    <span>
+                        angel_fest_info.txt
+                    </span>
+
+                    <span>
+                        ×
+                    </span>
+
+                </div>
+
+
+                <div class="experience-content">
+
+                    <div class="experience-text">
+
+                        <p class="mini-label">
+                            ✦ The experience ✦
+                        </p>
+
+                        <h2>
+                            Más que un festival
+                        </h2>
+
+                        <p>
+                            Buscamos crear una
+                            experiencia que combine la estética
+                            de internet con el ambiente de un
+                            festival temático.
+                        </p>
+
+                        <p>
+                            desde el momento en que llegás,
+                            vas a poder explorar diferentes
+                            espacios, participar en actividades
+                            y descubrir pequeños detalles
+                            escondidos durante el evento.
+                        </p>
+
+                        <p>
+                            todo está pensado para que puedas
+                            sentirte parte de este pequeño
+                            universo digital.
+                        </p>
+
+                    </div>
+
+
+                    <div class="experience-decoration">
+
+                        <div class="angel-circle">
+                            <img src="../Images/P-chan.png" alt="P-chan">
+                        </div>
+
+                        <span>
+                            online ♡
+                        </span>
+
+                        <span>
+                            digital ☆
+                        </span>
+
+                        <span>
+                            angel ✦
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- actividades -->
+
+        <section class="activities-section">
+
+            <div class="section-title">
+                <span>♡</span>
+                <h2>actividades</h2>
+                <span>♡</span>
+            </div>
+
+
+            <div class="activities-list">
+
+                <div class="activity">
+                    <span class="activity-number">01</span>
+
+                    <div class="activity-text">
+                        <h3>✦ zona de juegos</h3>
+                        <p>juegos y dinámicas para disfrutar durante el evento.</p>
+                    </div>
+
+                    <img src="../Images/jueguitos.png" alt="Zona de juegos" class="activity-img">
+                </div>
+
+
+                <div class="activity">
+                    <span class="activity-number">02</span>
+
+                    <div class="activity-text">
+                        <h3>✦ photo spot</h3>
+                        <p>espacios temáticos para sacar fotos y guardar recuerdos.</p>
+                    </div>
+
+                    <img src="../Images/yay.png" alt="Photo spot" class="activity-img">
+                </div>
+
+
+                <div class="activity">
+                    <span class="activity-number">03</span>
+
+                    <div class="activity-text">
+                        <h3>✦ arte y creatividad</h3>
+                        <p>una zona dedicada a ilustraciones, fanart y proyectos creativos.</p>
+                    </div>
+
+                    <img src="../Images/ayy.png" alt="Arte y creatividad" class="activity-img">
+                </div>
+
+
+                <div class="activity">
+                    <span class="activity-number">04</span>
+
+                    <div class="activity-text">
+                        <h3>✦ community zone</h3>
+                        <p>un espacio para conocer personas y compartir nuestros intereses.</p>
+                    </div>
+
+                    <img src="../Images/oa.png" alt="Community zone" class="activity-img">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- comunidad -->
+
+        <section class="community-window">
+
+            <div class="window-bar">
+
+                <span>
+                    community.exe
+                </span>
+
+                <span>
+                    ×
+                </span>
+
+            </div>
+
+
+            <div class="community-content">
+
+                <div class="community-symbol">
+                    <img src="../Images/P-chan.png" alt="P-chan">
+                </div>
+
+                <div>
+
+                    <p class="mini-label">
+                        internet angel community
+                    </p>
+
+                    <h2>
+                        este festival también es tuyo
+                    </h2>
+
+                    <p>
+                        queremos que todas las personas puedan
+                        disfrutar del evento, expresarse y
+                        compartir aquello que les apasiona.
+                    </p>
+
+                    <p>
+                        podés venir a conocer gente, disfrutar
+                        las actividades, participar en la
+                        comunidad o simplemente pasar un
+                        buen momento.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- faq -->
+
+        <section class="faq-section">
+
+            <div class="section-title">
+
+                <span>✦</span>
+
+                <h2>
+                    ¡preguntas frecuentes!
+                </h2>
+
+                <span>✦</span>
+
+            </div>
+
+
+            <div class="faq-list">
+
+                <div class="faq-item">
+
+                    <h3>
+                        ♡ ¿Necesito registrarme?
+                    </h3>
+
+                    <p>
+                        sí. podés registrarte desde la sección
+                        de registro del sitio.
+                    </p>
+
+                    <a href="registro.html">
+                        <img src="../Images/internet yamero.gif" alt="nosotros" class="faq-img">
+                    </a>
+                </div>
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        ♡ ¿Puedo ir con amigos?
+                    </h3>
+
+                    <p>
+                        ¡sí! el festival está pensado para
+                        compartir la experiencia con otras
+                        personas.
+                    </p>
+
+                    <img src="../Images/banner.jpg" alt="amigos" class="faq-img">
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        ♡ ¿Es temático?
+                    </h3>
+
+                    <p>
+                        sí. la temática está inspirada en
+                        needy girl overdose, internet y
+                        la cultura digital.
+                    </p>
+                    <a href="index.html">
+                        <img src="../Images/internethii.png" alt="temática" class="faq-img">
+                    </a>
+
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <h3>
+                        ♡ ¿Dónde puedo ver la ubicación?
+                    </h3>
+
+                    <p>
+                        toda la información sobre el lugar
+                        se encuentra en la sección
+                        <strong>ubicación</strong>.
+                    </p>
+                    <a href="ubicación.html">
+                        <img src="../Images/trencitp.webp" alt="ubicación" class="faq-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- botones -->
+
+        <div class="about-buttons">
+
+            <a href="registro.html" class="boton">
+                registrarme ♡
+            </a>
+
+            <a href="ubicación.html" class="boton">
+                ver ubicación ✦
+            </a>
+
+            <a href="#inicio" class="boton boton-blanco">
+                volver
+            </a>
+
+        </div>
+
+
+        <!-- mensaje final -->
+
+        <div class="about-final">
+
+            <p>
+                ✧ thank you for visiting ✧
+            </p>
+
+            <span>
+                ♡ Nos vemos prontos mis hermosos mancos!
+                mensaje de Kangel :3 ♡
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- javascript -->
+
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- malo malo malo malo malo! :CCC  -->
